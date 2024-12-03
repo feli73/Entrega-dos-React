@@ -1,0 +1,38 @@
+
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* el globito sobre el carrito */
+.cart-icon-container {
+    position: relative;
+  }
+
+  
+  
+  .cart-badge {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 1px 5px;
+    font-size: 0.7em;
+    font-weight: bold;
+  }
+
+
+  .color-fondo {
+    background-color: rgb(208, 234, 243);
+    min-height: 90px;
+  }
+
+  .parrafo-1 {
+
+    text-align: center;
+    margin-top: 20px;
+
+  }
