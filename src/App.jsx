@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import  NavBar  from './componentes/NavBar.jsx'
+import  Navbarr  from './componentes/Navbarr.jsx'
 import { BrowserRouter, Routes, Route } from "react-router";
 import ItemListContainer from './componentes/ItemListContainer.jsx'
 import ItemDetailContainer from './componentes/ItemDetailContainer.jsx';
@@ -12,7 +12,7 @@ function App() {
 
    <div>
     <BrowserRouter>
-    <NavBar />
+    <Navbarr />
     <Routes>
       <Route path="/" element={<ItemListContainer />} />
       <Route path="/category/:id" element={<ItemListContainer />} />

@@ -6,7 +6,7 @@ import CartWidget from './CartWidget';
 import { Link } from 'react-router';
 
 
-function NavBar() {
+function Navbarr() {
   return (
     <Navbar expand="lg" className=" color-fondo">
       <Container>
@@ -35,4 +35,4 @@ function NavBar() {
 
 
 
-export default NavBar;
+export default Navbarr;
