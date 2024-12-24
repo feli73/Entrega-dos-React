@@ -36,3 +36,17 @@
     margin-top: 20px;
 
   }
+
+
+/*   Cards */
+
+.cards-1 {
+  margin-top: 70px ;
+} 
+
+@media screen and (max-width: 767px) {
+  .small-cart {
+    display: flex;
+    justify-content: center;
+  }
+}
